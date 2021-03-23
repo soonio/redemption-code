@@ -1,0 +1,27 @@
+{
+    "name": "soonio/redemption-code",
+    "description": "一个随机生成兑换码的简单库",
+    "authors": [
+        {
+            "name": "清流",
+            "email": "soonio@qq.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "soonio\\rc\\": "src"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
